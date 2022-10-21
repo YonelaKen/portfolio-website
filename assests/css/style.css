@@ -144,7 +144,7 @@ img {
 	transform: scale(1.05);
 }
 
-.contact-section {
+.contact-section, #about {
 	display: flex;
 	justify-content: center;
 	align-items: center;
