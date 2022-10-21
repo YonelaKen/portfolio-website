@@ -10,9 +10,9 @@
 <body>
     <header>
         <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
     <main class="main">
@@ -20,42 +20,40 @@
             <div class="intro-text">
                 <h1>Yonela Makhubalo</h1>
                 <p >Hi, I am a full stack software developer click the button to view my portfolio</p>
-                <button>Portfolio</button>
+                <button><a href="#portfolio">Portfolio</a></button>
             </div>
             <div class="image">
                 <img src="assests/images/6-YonelaMakhubalo.jpg">
             </div>
         </div>
-        <div class="content">
+        <div id="portfolio" class="content">
             <h2>Portfolio</h2>
             <div class="cards">
                 <div class="card">
                     <div class="content-img">
-                        <img src="assests/images/6-YonelaMakhubalo.jpg" alt="">
+                       <a href="https://yonelaken.github.io/todo-app/" target="_blank" rel="noopener noreferrer"> <img src="assests/images/todo-app.png" width="100%" height="100%" alt="TODO app image"></a>
                     </div>
                     <p>TODO APP</p>
                 </div>
                 <div class="card">
                     <div class="content-img">
-                        <img src="assests/images/portfolio-website.png" width="100%" height="100%" alt="Portfolio website image">
+                       <a href="#"> <img src="assests/images/portfolio-website.png" width="100%" height="100%" alt="Portfolio website image"></a>
                     </div>
                     <p>Portfolio website</p>
                 </div>
-                <div class="card">
-                    <div class="content-img">
-                        <img src="assests/images/6-YonelaMakhubalo.jpg" alt="">
-                    </div>
-                    <p>Weather app</p>
-                </div>
             </div>
         </div>
-        <div class="contact-section">
+        <div id="about">
+            <h2>About</h2>
+            <p>Get in contact with me and I'll gladly answer any question you may have.</p>
+        </div>
+        <div id="contact" class="contact-section">
             <div>
                 <p><b>Get in contact with me!</b></p>
             </div>
-            <button>Linkedin</button>
-            <button>Github</button>
-            <button>Email</button>
+            <button><a href="https://www.linkedin.com/in/yonela-makhubalo-4464b9192" target="_blank">Linkedin</a></button>
+            <button> <a href="https://github.com/YonelaKen/" target="_blank">Github</a></button>
+            <button><a href="mailto:yonelakennymakhubs@gmail.com" target="_blank">Send Email</a></button>
         </div>
     </main>
 
