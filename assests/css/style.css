@@ -12,8 +12,8 @@ body {
 header,
 .intro,
 footer {
-	background: url(../images/pexels-pixabay-256502.jpg) no-repeat center
-		center fixed;
+	background: url(../images/pexels-pixabay-256502.jpg) no-repeat center center
+		fixed;
 	background-size: cover;
 	color: #f9faf8;
 	text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 40px white;
@@ -92,7 +92,7 @@ a:hover {
 
 img {
 	width: 100%;
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .main {
@@ -116,7 +116,7 @@ img {
 	text-align: center;
 }
 
-.cards{
+.cards {
 	display: flex;
 	justify-content: space-around;
 	gap: 32px;
@@ -145,7 +145,8 @@ img {
 	transform: scale(1.05);
 }
 
-.contact-section, #about {
+.contact-section,
+#about {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -176,8 +177,7 @@ footer {
 }
 
 @media only screen and (max-width: 783px) {
-
-	.intro{
+	.intro {
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
@@ -185,13 +185,19 @@ footer {
 		flex-flow: row wrap;
 	}
 
-	.image{
+	.image {
 		margin: 15%;
+	}
+
+	header,
+	.intro,
+	footer {
+		background-size: 100% 100%;
 	}
 }
 
 @media only screen and (max-width: 346px) {
-	.intro{
+	.intro {
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
@@ -201,11 +207,13 @@ footer {
 		padding-left: 0;
 	}
 
-	.main h1{
+	.main h1 {
 		font-size: 18px;
 	}
 
 	header ul {
 		margin-right: 10%;
 	}
+
+	
 }
